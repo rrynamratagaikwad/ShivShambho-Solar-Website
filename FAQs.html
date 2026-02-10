@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FAQs - Shiv Shambho Solar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --green: #28a745;
+            --green-dark: #1e7e34;
+            --gray-text: #6c757d;
+            --gray-dark: #343a40;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--gray-text);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: var(--white-dark);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Apply green color to all icons */
+        i,
+        .fa,
+        .fas,
+        .far,
+        .fab,
+        .bi {
+            color: var(--green) !important;
+        }
+
+        /* Page Header - Clear Image */
+        .page-header {
+            background: url('img/carousel-1.jpg') center/cover no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+        }
+
+        .page-header .container {
+            color: #fff;
+        }
+
+        .breadcrumb a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .breadcrumb-item.active {
+            color: #ddd;
+        }
+
+        .section-title {
+            color: var(--green);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* Accordion */
+        .accordion-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .06);
+        }
+
+        .accordion-button {
+            background-color: var(--green);
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: var(--green-dark);
+        }
+
+        .accordion-button::after {
+            filter: brightness(0) invert(1);
+        }
+
+        .accordion-body {
+            background: #f9f9f9;
+        }
+
+        /* Footer */
+        .footer {
+            background: #111;
+            color: #fff;
+        }
+
+        .footer p,
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: var(--green);
+        }
+
+        .footer h5 {
+            color: #fff;
+        }
+
+        /* Back to Top Button - GREEN */
+        .back-to-top {
+            background-color: var(--green) !important;
+            border-color: var(--green) !important;
+        }
+
+        .back-to-top i {
+            color: #fff !important;
+        }
+
+        .back-to-top:hover {
+            background-color: var(--green-dark) !important;
+            border-color: var(--green-dark) !important;
+        }
+
+        /* Optional: social icons hover effect */
+        .btn-link i {
+            transition: color 0.3s;
+        }
+
+        .btn-link:hover i {
+            color: var(--green-dark) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Nashik</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Sun : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+91 94231 80935</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center mx-n2">
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <img src="img/logo/solar-logo.png" alt="Company Logo" height="140">
+        </a>
+
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About us</a>
+                <a href="product.html" class="nav-item nav-link">Product</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="team.html" class="nav-item nav-link">Our Team</a>
+                <a href="FAQs.html" class="nav-item nav-link">FAQs</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-5 mb-5" 
+     style="background: url('img/carousel-1.jpg') center/cover no-repeat;">
+    <div class="container py-5">
+        <h1 class="display-3 text-white mb-3 animate__animated animate__slideInDown">FAQs</h1>
+        <nav aria-label="breadcrumb" class="animate__animated animate__slideInDown">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">FAQs</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+
+    <!-- FAQ SECTION -->
+    <div class="container py-5">
+ <div class="text-center mx-auto mb-5">
+    <h6 class="faq-label animate__animated animate__slideInUp">
+        FAQs
+    </h6>
+
+    <h1 class="fw-bold faq-title animate__animated animate__slideInUp">
+        Frequently Asked Questions
+    </h1>
+
+    <p class="faq-subtitle animate__animated animate__slideInUp animate__delay-1s">
+        Everything you need to know about solar energy
+    </p>
+</div>
+
+
+
+        <div class="accordion col-lg-8 mx-auto">
+            <div class="accordion-item mb-3">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    How long do solar panels last?
+                </button>
+                <div id="faq1" class="accordion-collapse collapse show">
+                    <div class="accordion-body">25–30 years with minimal maintenance.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    Is solar installation expensive?
+                </button>
+                <div id="faq2" class="accordion-collapse collapse">
+                    <div class="accordion-body">Cost recovered in 3–5 years.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    Do panels work on cloudy days?
+                </button>
+                <div id="faq3" class="accordion-collapse collapse">
+                    <div class="accordion-body">Yes, with slightly reduced efficiency.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    How much maintenance do solar panels require?
+                </button>
+                <div id="faq4" class="accordion-collapse collapse">
+                    <div class="accordion-body">Solar panels require minimal maintenance, mostly cleaning dust and debris.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    Can solar panels work in rainy weather?
+                </button>
+                <div id="faq5" class="accordion-collapse collapse">
+                    <div class="accordion-body">Yes, solar panels generate electricity even on rainy days, but efficiency is slightly lower.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">
+                    Are solar panels safe for the environment?
+                </button>
+                <div id="faq6" class="accordion-collapse collapse">
+                    <div class="accordion-body">Absolutely. Solar panels reduce carbon footprint and generate clean energy.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Plot 6B, Sr No 330 Vighnaharta Row House Shree Swami Samartha Nagar Jatra Hotel Nashik 422003</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 94231 80935</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>shivshambhosolar@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Product</a>
+                    <a class="btn btn-link" href="">Service</a>
+                    <a class="btn btn-link" href="">Project</a>
+                      <a class="btn btn-link" href="">Our Team</a>
+                    <a class="btn btn-link" href="">FAQs</a>
+                    <a class="btn btn-link" href="">Contact us</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
